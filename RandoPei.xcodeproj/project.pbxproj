@@ -15,6 +15,9 @@
 		EC7343CA237025C700156DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7343C8237025C700156DE7 /* LaunchScreen.storyboard */; };
 		EC7343D5237025C700156DE7 /* RandoPeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7343D4237025C700156DE7 /* RandoPeiTests.swift */; };
 		EC7343E0237025C700156DE7 /* RandoPeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7343DF237025C700156DE7 /* RandoPeiUITests.swift */; };
+		EC7343EE23703D5400156DE7 /* AjouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7343ED23703D5400156DE7 /* AjouterViewController.swift */; };
+		EC7343F023703D7900156DE7 /* AjouterViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7343EF23703D7900156DE7 /* AjouterViewController2.swift */; };
+		EC7343F223703DFC00156DE7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7343F123703DFC00156DE7 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EC7343DB237025C700156DE7 /* RandoPeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandoPeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7343DF237025C700156DE7 /* RandoPeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandoPeiUITests.swift; sourceTree = "<group>"; };
 		EC7343E1237025C700156DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7343ED23703D5400156DE7 /* AjouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjouterViewController.swift; sourceTree = "<group>"; };
+		EC7343EF23703D7900156DE7 /* AjouterViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjouterViewController2.swift; sourceTree = "<group>"; };
+		EC7343F123703DFC00156DE7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				EC7343C6237025C700156DE7 /* Assets.xcassets */,
 				EC7343C8237025C700156DE7 /* LaunchScreen.storyboard */,
 				EC7343CB237025C700156DE7 /* Info.plist */,
+				EC7343ED23703D5400156DE7 /* AjouterViewController.swift */,
+				EC7343EF23703D7900156DE7 /* AjouterViewController2.swift */,
+				EC7343F123703DFC00156DE7 /* MapViewController.swift */,
 				EC7343C3237025C700156DE7 /* RandoPei.xcdatamodeld */,
 			);
 			path = RandoPei;
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7343C5237025C700156DE7 /* RandoPei.xcdatamodeld in Sources */,
+				EC7343F223703DFC00156DE7 /* MapViewController.swift in Sources */,
 				EC7343BF237025C700156DE7 /* ViewController.swift in Sources */,
 				EC7343BD237025C700156DE7 /* AppDelegate.swift in Sources */,
+				EC7343EE23703D5400156DE7 /* AjouterViewController.swift in Sources */,
+				EC7343F023703D7900156DE7 /* AjouterViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
